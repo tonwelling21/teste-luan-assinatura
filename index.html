@@ -13,10 +13,12 @@
         <div class="row">
             <div class="col">
                 <div>
-                    <ul class="well-comp-breadcrumb">
-                        <li>Drogarias Pacheco</li>
-                        <li>Assinatura</li>
-                    </ul>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="https://www.drogariaspacheco.com.br/">Drogarias Pacheco</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Assinatura</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -25,21 +27,63 @@
     <!--Conteúdo H1 e Imagem-->
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
                 <div class="row">
-                    <h1>Assinatura de Produtos na Drogarias Pacheco</h1>
-                    <p>Ao ativar agora a sua assinatura, suas próximas compras ficam programadas e você recebe como e onde quiser.</p>
-                    <div class="well-comp-ancoras">
-                        <a href="#como-funciona">Como funciona</a>
-                        <a href="#veja-como-e-facil">Veja como é fácil</a>
-                        <a href="#mais-assinados">Mais assinados</a>
-                        <a href="#duvidas-frequentes">Duvidas frequentes</a>
+                    <div class="col">
+                        <h1>Assinatura de Produtos na Drogarias Pacheco</h1>
+                        <p>Ao ativar agora a sua assinatura, suas próximas compras ficam programadas e você recebe como e onde quiser.</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="well-comp-ancoras">
+                                    <a href="#como-funciona" class="btn btn-light">Como funciona</a>
+                                    <a href="#mais-assinados" class="btn btn-light">Mais assinados</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-6">
+                                <div>
+                                    <a href="#veja-como-e-facil" class="btn btn-light">Veja como é fácil</a>
+                                    <a href="#duvidas-frequentes" class="btn btn-light">Duvidas frequentes</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <div>
-                    <img src="" alt="">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/dpsp-assine-aqui-medicamentos-nov-2022-topo-670x330.png" class="d-block w-100" alt="imagem promocional assinatura dpsp">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/dpsp-assine-aqui-medicamentos-nov-2022-topo-670x330.png" class="d-block w-100" alt="imagem promocional assinatura dpsp">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/dpsp-assine-aqui-medicamentos-nov-2022-topo-670x330.png" class="d-block w-100" alt="imagem promocional assinatura dpsp">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,11 +174,11 @@
         <div class="row">
             <div class="col-4">
                 <div>
-                    <img src="" alt="">
+                    <img src="img/rnk-img-assinatura-como-funciona-v2.png" alt="Moça animada">
                 </div>
             </div>
             <div class="col-8">
-                <h2>Como Funciona a Assinatura de Produtos na Drogarias Pacheco</h2>
+                <h2 id="como-funciona">Como Funciona a Assinatura de Produtos na Drogarias Pacheco</h2>
                     <div class="row">
                         <div class="col-3">
                             <div><img src="" alt=""></div>
@@ -177,7 +221,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2>Como utilizar a assinatura?</h2>
+                <h2 id="veja-como-e-facil">Como utilizar a assinatura?</h2>
                 <ol>
                     <li>
                         <img src="" alt="">
@@ -239,7 +283,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Ainda está com dúvidas sobre assinatura?</h2>
+                <h2 id="duvidas-frequentes">Ainda está com dúvidas sobre assinatura?</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
